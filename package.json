@@ -1,0 +1,16 @@
+{
+  "name": "RB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hideaki",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.3"
+  }
+}
