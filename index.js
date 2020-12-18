@@ -11,7 +11,7 @@ RB.on('ready', () => {
 });
 
 RB.on('rateLimit', rate => {
-	console.log(`Time to wait: ${rate.timeDifference.replace("-", " ")}`);
+	console.log(`Time to wait: ${rate.timeDifference}`);
 });
 
 RB.on('message', message => {
