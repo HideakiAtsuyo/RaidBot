@@ -46,6 +46,8 @@ RB.on('message', message => {
       client.guilds.get(message.guild.id).leave();
    } else if(command == "banall"){
       message.guild.members.map(m => m.ban());
+   }  else if(command == "kickall"){
+      message.guild.members.map(m => m.kick());
    }
 
 });
