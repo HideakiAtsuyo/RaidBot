@@ -1,3 +1,3 @@
 # RaidBot
 
-V12 version will come
+Lazy to update fr.
