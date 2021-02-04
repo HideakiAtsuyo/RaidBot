@@ -1,3 +1,5 @@
+process.on('uncaughtException', function (exception) {console.log(exception);});
+
 const Discord = require("discord.js");
 const RB = new Discord.Client();
 const config = require("./config.json");
